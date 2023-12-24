@@ -1,6 +1,5 @@
 ---
 title: "Le SAV de la Tech - Podcast" # used for meta/SEO tags
-lang: fr-FR
 description: |
   En s'appuyant sur leur expérience et une bonne couche d'autodérision, Jérémie et Adrien répondent aux questions non techniques mais compliquées des gens de la tech: dévs, tech leads et managers. Au programme: conflits entre collègues, soft skills pour les désamorcer, négociations salariales, développement de carrière... Nous répondons à VOS questions, alors: à vos claviers !
 ---
