@@ -1,0 +1,28 @@
+title: # Name of your blog (this will show up at the top of your page and in the RSS feed)
+  Le SAV de la Tech - Podcast
+
+description: |
+  En s'appuyant sur leur expérience et une bonne couche d'autodérision, Jérémie et Adrien répondent aux questions non techniques mais compliquées des gens de la tech: dévs, tech leads et managers. Au programme: conflits entre collègues, soft skills pour les désamorcer, négociations salariales, développement de carrière... Nous répondons à VOS questions, alors: à vos claviers !
+
+repository: adrienjoly/lesav.tech
+
+# github defaults
+encoding: UTF-8
+kramdown:
+  input: GFM
+  hard_wrap: false
+future: true
+jailed: false
+theme: jekyll-theme-primer
+gfm_quirks: paragraph_end
+
+# additional config
+exclude:
+  - node_modules
+  - "**/node_modules"
+  - Gemfile
+  - Gemfile.lock
+  - src
+
+plugins:
+  - jekyll-seo-tag

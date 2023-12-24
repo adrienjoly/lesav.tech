@@ -1,5 +1,3 @@
-# Le SAV de la Tech
-
 En s'appuyant sur leur expérience et une bonne couche d'autodérision, Jérémie Girault et Adrien Joly répondent aux questions non techniques mais compliquées des gens de la tech: dévs, tech leads et managers.
 
 Au programme: conflits entre collègues, soft skills pour les désamorcer, négociations salariales, développement de carrière...
