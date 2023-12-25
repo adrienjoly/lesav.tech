@@ -7,6 +7,8 @@ lang: fr-FR
 
 repository: adrienjoly/lesav.tech
 
+image: /assets/sav-de-la-tech.jpg
+
 # github defaults
 encoding: UTF-8
 kramdown:

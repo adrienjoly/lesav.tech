@@ -1,5 +1,6 @@
 ---
 title: "Le SAV de la Tech - Podcast" # used for meta/SEO tags
+layout: main
 ---
 
 En s'appuyant sur leur expérience et une bonne couche d'autodérision, Jérémie Girault et Adrien Joly répondent aux questions non techniques mais compliquées des gens de la tech: dévs, tech leads et managers.
@@ -8,9 +9,11 @@ Au programme: conflits entre collègues, soft skills pour les désamorcer, négo
 
 Nous répondons à VOS questions, alors: à vos claviers !
 
-## Proposez votre question, pour un prochain épisode
+## Soumettre un sujet
 
-🗳️ Formulaire: [https://ajo.ovh/sav](https://ajo.ovh/sav)
+Vous avez un problème ou question à proposer pour un prochain épisode ?
+
+🗳️ [Partagez-là avec nous !](/question)
 
 ## Episodes
 

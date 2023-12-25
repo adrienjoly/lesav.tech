@@ -1,0 +1,24 @@
+body {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.markdown-body {
+    line-height: 1.8;
+}
+
+a {
+    color: #0091BE;
+}
+
+.clear {
+    clear: both;
+}
+
+#main-img {
+    float: right;
+    width: 160px;
+    margin: 0 32px 16px 0;
+    padding-top: 32px;
+}
