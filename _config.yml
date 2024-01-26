@@ -7,7 +7,7 @@ lang: fr-FR
 
 repository: adrienjoly/lesav.tech
 
-image: /assets/sav-de-la-tech.jpg
+image: https://www.lesav.tech/assets/sav-de-la-tech.jpg
 
 # github defaults
 encoding: UTF-8
