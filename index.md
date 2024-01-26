@@ -13,7 +13,7 @@ Nous répondons à VOS questions, alors: à vos claviers !
 
 Vous avez un problème ou question à proposer pour un prochain épisode ?
 
-🗳️ [Partagez-là avec nous !](/question)
+🗳️ [Partagez votre sujet avec nous !](/question)
 
 ## Episodes
 
