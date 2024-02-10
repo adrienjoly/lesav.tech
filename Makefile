@@ -1,4 +1,4 @@
-.PHONY: ruby serve build import
+.PHONY: ruby serve build import-rss
 
 default: serve
 
@@ -17,4 +17,5 @@ build: ruby
 	bundle exec jekyll build
 
 import-rss: ruby
-	ruby ruby import-rss.rb
+	ruby import-rss.rb
+	@echo "✅ episodes imported into ./_posts/ directory"
