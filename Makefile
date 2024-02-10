@@ -1,4 +1,4 @@
-.PHONY: serve build
+.PHONY: ruby serve build import
 
 default: serve
 
@@ -15,3 +15,6 @@ build: ruby
 	bundle install
 	rm -rf _site/
 	bundle exec jekyll build
+
+import-rss: ruby
+	ruby ruby import-rss.rb
