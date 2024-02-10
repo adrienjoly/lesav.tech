@@ -12,10 +12,6 @@ a {
     color: #0091BE;
 }
 
-.clear {
-    clear: both;
-}
-
 #main-img {
     float: right;
     width: 160px;
@@ -26,4 +22,9 @@ a {
 .platform-link {
     float: left;
     margin-right: 8px;
+    margin-bottom: 24px;
+}
+
+h2 {
+    clear: both
 }
