@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://textfit.strml.net/textFit.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js" integrity="sha512-BNaRQnYJYiPSqHHDb58B0yaPfCu+Wgds8Gp/gU33kqBtgNS4tSPHuGibyoeqMV/TJlSKda6FXzoEyYGjTe+vXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <style>
         * {
             margin: 0;
@@ -15,7 +16,7 @@
             font-family: Arial, sans-serif;
         }
         
-        .container {
+        #container {
             position: relative;
             width: 800px;
             height: 800px;
@@ -53,13 +54,36 @@
     </style>
 </head>
 <body>
-    <div class="container">
-        <header>SAV de la Tech #09</header>
-        <footer>Mes collègues ne veulent pas s'améliorer!</footer>
+    <p>Text is editable.</p>
+    <div id="container">
+        <header contenteditable="true">SAV de la Tech #09</header>
+        <footer contenteditable="true">Mes collègues ne veulent pas s'améliorer!</footer>
+    </div>
+    <button id="generate">Generate thumb</button>
+    <div id="generated" style="display: none;">
+        <p>Right-click on the generated thumb, to save it as a PNG file.</p>
+        <div id="canvas-holder"></div>
     </div>
     <script>
-        textFit(document.getElementsByTagName('header'));
-        textFit(document.getElementsByTagName('footer'), {multiLine: true});
+        const header = document.getElementsByTagName("header")[0];
+        const footer = document.getElementsByTagName("footer")[0];
+        function fitText() {
+            textFit(header);
+            textFit(footer, {multiLine: true});
+        }
+        fitText();
+        header.oninput = fitText;
+        footer.oninput = fitText;
+
+        document.getElementById("generate").onclick = function () {
+            html2canvas(document.getElementById("container")).then(canvas => {
+                const canvasHolder = document.getElementById("canvas-holder");
+                canvasHolder.innerHTML = "";
+                canvasHolder.appendChild(canvas);
+                const generated = document.getElementById("generated");
+                generated.style.display = "block";
+            });
+        }
     </script>
 </body>
 </html>
