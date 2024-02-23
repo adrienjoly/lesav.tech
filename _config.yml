@@ -9,6 +9,13 @@ repository: adrienjoly/lesav.tech
 
 image: https://lesav.tech/assets/sav-de-la-tech.jpg
 
+defaults:
+  - scope:
+      path: ""
+    values:
+      image:
+        path: https://lesav.tech/assets/sav-de-la-tech.jpg
+
 # github defaults
 encoding: UTF-8
 kramdown:
