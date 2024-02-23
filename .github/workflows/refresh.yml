@@ -4,7 +4,6 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "05 6 * * FRI" # Run every Friday at 7:05 CET/GMT+1
-  push:
 
 jobs:
   refresh:
