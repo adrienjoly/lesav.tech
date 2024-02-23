@@ -8,6 +8,7 @@ ruby:
 	@echo "E.g. $ chruby 3.2.2 # cf .ruby-version file"
 
 ruby-deps: ruby Gemfile Gemfile.lock
+	gem install bundler
 	bundle install
 
 serve: ruby-deps
