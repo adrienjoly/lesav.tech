@@ -2,7 +2,7 @@
 # see https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll
 source 'https://rubygems.org'
 ruby File.read(".ruby-version").strip
-gem "github-pages", "~> 227", group: :jekyll_plugins
-gem "jekyll-import", "~> 0.23.0", group: :jekyll_plugins
+gem "github-pages", "~> 231", group: :jekyll_plugins
+gem "jekyll-import", "~> 0.24", group: :jekyll_plugins
 gem "rss", "~> 0.3.0", group: :jekyll_plugins
 gem "safe_yaml", "~>1.0.5", group: :jekyll_plugins
