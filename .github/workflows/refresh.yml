@@ -21,6 +21,7 @@ jobs:
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
       - name: Install dependencies for import-rss
         run: sudo apt-get install zlib1g-dev
+      - run: gem install bundler
       - run: make import-rss
       # Commit all changed files back to the repository
       - uses: stefanzweifel/git-auto-commit-action@v5
