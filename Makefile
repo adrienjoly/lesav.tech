@@ -18,5 +18,5 @@ build: ruby-deps
 	bundle exec jekyll build
 
 import-rss: ruby-deps
-	ruby -r rubygems import-rss.rb
+	ruby import-rss.rb
 	@echo "✅ episodes imported into ./_posts/ directory"
