@@ -4,6 +4,7 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "05 6 * * FRI" # Run every Friday at 7:05 CET/GMT+1
+  push:
 
 jobs:
   refresh:
@@ -18,7 +19,7 @@ jobs:
       - uses: ruby/setup-ruby@v1
         with:
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
-      - run: gem install jekyll-import -v 0.23 
+      - run: gem install jekyll-import -v 0.24
       - run: make import-rss
       # Commit all changed files back to the repository
       - uses: stefanzweifel/git-auto-commit-action@v5
