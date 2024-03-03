@@ -1,0 +1,4 @@
+- name: meetup.com
+  desc: Site permettant de découvrir des évènements communautaires ouverts au public, et souvent gratuits
+  href: https://www.meetup.com/
+  episodes: [ 1 ]

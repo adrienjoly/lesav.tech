@@ -20,13 +20,26 @@
   <body>
     <div class="container-lg px-3 my-5 markdown-body">
 
-      <img id="main-img" src="{{ site.url }}/assets/thumbs/{{ page.id | split: '/' | last | split: '-' | first }}.png" />
+      {% assign episode_number = page.id | split: '/' | last | split: '-' | first %}
+
+      <img id="main-img" src="{{ site.url }}/assets/thumbs/{{ episode_number }}.png" />
 
       <h1>{{ page.title }}</h1>
   
       {{ content }}
 
       <p><a href="/question"><button>Proposer sujet pour un prochain épisode</button></a></p>
+
+      {% assign filtered_resources = site.data.resources | where: 'episodes', episode_number %}
+
+      {% if filtered_resources.size > 0 %}
+        <h2>Ressources mentionnées dans l'épisode</h2>
+        <ul>
+          {% for resource in filtered_resources %}
+        <li><a href="{{ resource.href }}">{{ resource.name }}</a>: {{ resource.desc }}</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
 
       <p><a href="/">Retour à l'accueil du SAV de la Tech</a></p>
     </div>
