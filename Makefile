@@ -18,5 +18,6 @@ build: ruby-deps
 	bundle exec jekyll build
 
 import-rss: ruby-deps
-	ruby import-rss.rb
+	# gem install jekyll-import -v 0.24
+	ruby import-rss.rb || echo "💡 In case of warnings from gems, you may need to run $ gem pristine --all"
 	@echo "✅ episodes imported into ./_posts/ directory"
