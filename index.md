@@ -46,3 +46,7 @@ Retrouvez [les épisodes du podcast](https://podcasters.spotify.com/pod/show/sav
     </li>
   {% endfor %}
 </ul>
+
+## Ressources
+
+- Rdv sur notre page de [ressources mentionnées dans les épisodes](/ressources/)
