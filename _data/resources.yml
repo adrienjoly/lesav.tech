@@ -2,3 +2,33 @@
   desc: Site permettant de découvrir des évènements communautaires ouverts au public, et souvent gratuits
   href: https://www.meetup.com/
   episodes: [ 1 ]
+- name: Mes collègues veulent pas s’améliorer 😶‍🌫️ (épisode)
+  href: https://lesav.tech/2024/02/09/9-mes-collegues-veulent-pas-s-ameliorer.html
+  episodes: [ 12 ]
+- name: Clean Code 
+  desc: Guide proposé par Robert C. Martin pour que le code qu'on écrit soit plus facile à lire et à maintenir dans la durée.
+  href: https://gist.github.com/wojteklu/73c6914cc446146b8b533c0988cf8d29
+  episodes: [ 12 ]
+- name: Comment faire du pair programming ? 👯 (épisode)
+  href: https://lesav.tech/2024/01/26/8-comment-faire-du-pair-programming.html
+  episodes: [ 12 ]
+- name: Complexité Accidentelle 
+  desc: Complexité introduite dans des programmes informatiques non en raison de la complexité du problème, mais de manière accidentelle en raison de choix de développement non pertinents.
+  href: https://fr.wikipedia.org/wiki/Complexit%C3%A9_accidentelle
+  episodes: [ 12 ]
+- name: Root Cause Analysis 
+  desc: L'analyse de cause racine est une démarche de résolution de problème partant du constat qu'il est plus judicieux de traiter les causes d'un problème que d'en traiter les symptômes immédiats. En effet, l'analyse des causes d'un problème permet d'en déterminer une solution définitive, et donc, empêcher qu'il ne se reproduise de nouveau.
+  href: https://fr.wikipedia.org/wiki/Analyse_de_cause_racine
+  episodes: [ 12 ]
+- name: Boyscout Rule 
+  desc: Leave your code better than you found it.
+  href: https://deviq.com/principles/boy-scout-rule
+  episodes: [ 12 ]
+- name: Pompier Pyromane 
+  desc: Un pompier pyromane, c’est avant tout un « pompier », c’est-à-dire quelqu’un qui se sent bien dans le rôle de sauveur. A chaque fois qu’il résout un bug, il est remercié chaudement par la ou les personnes qui étaient impactées au quotidien. Plus il est rapide dans la résolution de problèmes, plus sa valeur semble augmenter aux yeux de ses collègues. C’est normal, il leur facilite la vie, il résout leurs soucis.
+  href: https://www.geek-directeur-technique.com/2016/08/27/les-pompiers-pyromanes
+  episodes: [ 12 ]
+- name: Diagramme de séquence (UML) 
+  desc: Représenter les interactions entre composants aide à mieux comprendre une codebase compliquée.
+  href: https://lipn.univ-paris13.fr/~gerard/uml-s2/uml-cours05.html
+  episodes: [ 12 ]
