@@ -41,13 +41,13 @@
       <details><summary>(🤫 À lire après écoute de l'épisode !)</summary>
         <ul>
           {% for resource in filtered_resources %}
-        <li><a href="{{ resource.href }}">{{ resource.name }}</a>: {{ resource.desc }}</li>
+        <li><a href="{{ resource.href }}">{{ resource.name }}</a>{% if resource.desc %}: {{ resource.desc }}{% endif %}</li>
           {% endfor %}
         </ul>
       </details>
       {% endif %}
 
-      <p><a href="/">Retour à l'accueil du SAV de la Tech</a></p>
+      <p style="margin-top: 20px;"><a href="/">Retour à l'accueil du SAV de la Tech</a></p>
     </div>
 
     {% if site.google_analytics %}
