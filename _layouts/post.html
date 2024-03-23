@@ -38,7 +38,7 @@
 
       {% if filtered_resources.size > 0 %}
       <h2>Ressources mentionnées dans l'épisode</h2>
-      <details><summary>(🤫 À lire après écoute de l'épisode !)</summary>
+      <details><summary>(🫣 À lire après écoute de l'épisode !)</summary>
         <ul>
           {% for resource in filtered_resources %}
         <li><a href="{{ resource.href }}">{{ resource.name }}</a>{% if resource.desc %}: {{ resource.desc }}{% endif %}</li>
