@@ -1,3 +1,21 @@
+- name: Qu'est-ce que le «cargo cult» dans le développement logiciel ?
+  desc: |
+    Habitude à perdre: pratiques répétées "à l'aveugle" dans l'objectif de résoudre un problème sans vraiment réfléchir à "pourquoi" ou "comment" mettre cette solution en place.
+  href: https://code-garage.fr/blog/qu-est-ce-que-le-cargo-cult-dans-le-developpement-logiciel/
+  episodes: [ 1 ]
+- name: Egoless Crafting
+  desc: |
+    Dix proposition pour assainir la collaboration au sein d'équipes de développement. Exemples: éviter le "cargo cult" et questionner les conséquences concrètes (outcomes) plutôt que les opinions.
+  href: https://egolesscrafting.org/
+  episodes: [ 1 ]
+- name: Human mécano
+  desc: Le Human Mecano est une technique permettant de prendre conscience du fonctionnement de chacun au sein de son équipe, pour éviter les conflits et mieux converger sur les solutions à adopter.
+  href: https://app.will-agent.com/card/mecano
+  episodes: [ 1 ]
+- name: Software Craft
+  desc: Aussi appelé Softare Crafts(wo)manship ou Artisanat Logiciel, il s'agit d'une philosophie et d'une attitude particulière qu'adoptent certain·e·s dévs dans l'optique de produire des logiciels bien conçus, qui fonctionnent correctement pendant longtemps.
+  href: https://www.youtube.com/watch?v=FzIuAImNcis
+  episodes: [ 1 ]
 - name: meetup.com
   desc: Site permettant de découvrir des évènements communautaires ouverts au public, et souvent gratuits
   href: https://www.meetup.com/
