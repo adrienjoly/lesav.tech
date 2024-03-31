@@ -11,8 +11,8 @@
     <link href="/icon.png" rel="icon" type="image/x-png">
 
     <!-- custom episode image, except for twitter because it shows the title -->
-    <link rel="image_src" href="{{ site.url }}/assets/thumbs/{{ page.id | split: '/' | last | split: '-' | first }}.png">
-    <meta property="og:image" content="{{ site.url }}/assets/thumbs/{{ page.id | split: '/' | last | split: '-' | first }}.png">
+    <link rel="image_src" href="{{ site.url }}/assets/thumbs/{{ episode_number }}.jpeg">
+    <meta property="og:image" content="{{ site.url }}/assets/thumbs/{{ episode_number }}.jpeg">
 
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/css/main.css?v=' | append: site.github.build_revision | relative_url }}">
@@ -26,7 +26,7 @@
 
       {% assign episode_number = page.id | split: '/' | last | split: '-' | first %}
 
-      <img id="main-img" src="{{ site.url }}/assets/thumbs/{{ episode_number }}.png" />
+      <img id="main-img" src="{{ site.url }}/assets/thumbs/{{ episode_number }}.jpeg" />
 
       <h1>{{ page.title }}</h1>
   
