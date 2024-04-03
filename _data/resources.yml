@@ -50,3 +50,7 @@
   desc: Représenter les interactions entre composants aide à mieux comprendre une codebase compliquée.
   href: https://lipn.univ-paris13.fr/~gerard/uml-s2/uml-cours05.html
   episodes: [ 12 ]
+- name: Communication Non Violente (CNV)
+  desc: Méthode permettant de résoudre et/ou prévenir les conflits interpersonnels, en traitant séparément les ressentis, faits et besoins, puis en formulant une demande.
+  href: https://bloculus.com/communication-non-violente-fondamentaux/
+  episodes: []
