@@ -54,3 +54,8 @@
   desc: Méthode permettant de résoudre et/ou prévenir les conflits interpersonnels, en traitant séparément les ressentis, faits et besoins, puis en formulant une demande.
   href: https://bloculus.com/communication-non-violente-fondamentaux/
   episodes: []
+- name: Communautés d'entraide pour l'émancipation des femmes dans la tech
+  href: https://www.cio.com/article/215709/16-organizations-for-women-in-tech.html
+  desc: |
+    Merci à Audrey K. pour ce lien qui en référence plusieurs, dont ses recommandations: Women Who Code, Women In APIs.
+  episodes: [17]
