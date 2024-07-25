@@ -59,3 +59,18 @@
   desc: |
     Merci à Audrey K. pour ce lien qui en référence plusieurs, dont ses recommandations: Women Who Code, Women In APIs.
   episodes: [17]
+- name: Request For Comments (RFC)
+  href: https://en.wikipedia.org/wiki/Request_for_Comments
+  desc: |
+    L'écriture de RFC permet de proposer des changements à l'équipe et recueillir leurs suggestions avant d'effectuer ces changements dans le code.
+  episodes: [21]
+- name: Test-driven Development (TDD)
+  href: https://en.wikipedia.org/wiki/Test-driven_development
+  desc: |
+    Technique de développement consistant à commencer par définir un micro-objectif fonctionnel à atteindre, sous forme d'un test automatisé, suivi d'une phase d'implémentation puis de raffinage. Avantage: aide à faire émerger une architecture progressivement, en réponse aux besoins fonctionnels.
+  episodes: [21]
+- name: You aren't gonna need it (YAGNI)
+  href: https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it
+  desc: |
+    Règle consistant à se rappeler de ne pas écrire du code tant qu'on est pas sûr qu'il est nécessaire. Permet d'éviter l'over-engineering.
+  episodes: [21]
