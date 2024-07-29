@@ -53,7 +53,7 @@
 - name: Communication Non Violente (CNV)
   desc: Méthode permettant de résoudre et/ou prévenir les conflits interpersonnels, en traitant séparément les ressentis, faits et besoins, puis en formulant une demande.
   href: https://bloculus.com/communication-non-violente-fondamentaux/
-  episodes: []
+  episodes: [22]
 - name: Communautés d'entraide pour l'émancipation des femmes dans la tech
   href: https://www.cio.com/article/215709/16-organizations-for-women-in-tech.html
   desc: |
@@ -74,3 +74,19 @@
   desc: |
     Règle consistant à se rappeler de ne pas écrire du code tant qu'on est pas sûr qu'il est nécessaire. Permet d'éviter l'over-engineering.
   episodes: [21]
+- name: The Definition of a Tech Lead
+  desc: Article qui propose une définition du rôle de "Tech Lead" au sein d'une équipe.
+  href: https://www.patkua.com/blog/the-definition-of-a-tech-lead/
+  episodes: [22]
+- name: "📖 The Manager's Path"
+  desc: Livre qui propose une définition des différents rôles nécessaire pour conduire efficacement les équipes de développement, dont le "Tech Lead".
+  href: https://www.oreilly.com/library/view/the-managers-path/9781491973882/
+  episodes: [22]
+- name: "L’agendami"
+  desc: Méthode permettant de reprendre contrôle sur son temps en entreprise.
+  href: https://app.will-agent.com/card/agendami
+  episodes: [22]
+- name: "Les barricades"
+  desc: Méthode aidant à limiter les interruptions qui interfère avec ses projets et autres engagements qui demandent du focus.
+  href: https://app.will-agent.com/card/barricades
+  episodes: [22]
