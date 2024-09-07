@@ -7,7 +7,7 @@
   desc: |
     Dix proposition pour assainir la collaboration au sein d'équipes de développement. Exemples: éviter le "cargo cult" et questionner les conséquences concrètes (outcomes) plutôt que les opinions.
   href: https://egolesscrafting.org/
-  episodes: [ 1 ]
+  episodes: [ 1, 16 ]
 - name: Human mécano
   desc: Le Human Mecano est une technique permettant de prendre conscience du fonctionnement de chacun au sein de son équipe, pour éviter les conflits et mieux converger sur les solutions à adopter.
   href: https://app.will-agent.com/card/mecano
@@ -53,7 +53,7 @@
 - name: Communication Non Violente (CNV)
   desc: Méthode permettant de résoudre et/ou prévenir les conflits interpersonnels, en traitant séparément les ressentis, faits et besoins, puis en formulant une demande.
   href: https://bloculus.com/communication-non-violente-fondamentaux/
-  episodes: [22]
+  episodes: [16, 22]
 - name: Communautés d'entraide pour l'émancipation des femmes dans la tech
   href: https://www.cio.com/article/215709/16-organizations-for-women-in-tech.html
   desc: |
@@ -90,3 +90,36 @@
   desc: Méthode aidant à limiter les interruptions qui interfère avec ses projets et autres engagements qui demandent du focus.
   href: https://app.will-agent.com/card/barricades
   episodes: [22]
+- name: "Évoluer en tant que développeur sans devenir manager"
+  href: https://www.welcometothejungle.com/fr/articles/evoluer-developpeur-manager
+  episodes: [10]
+- name: Stories of reaching Staff-plus engineering roles - StaffEng
+  href: https://staffeng.com/
+  episodes: [10]
+- name: |
+    Geoff Mazeroff's notes from "The Manager’s Path: A Guide for Tech Leaders Navigating Growth & Change", by Camille Fournier
+  href: https://geoffmazeroff.com/wp-content/uploads/2019/11/the-managers-path-notes.pdf
+  episodes: [10]
+- name: Comment m̶a̶l̶ communiquer avec ses collègues
+  desc: Talk court qu'Adrien a donné en Mars 2024 sur les erreurs de communication et leadership qu'il a commises lors d'une expérience au sein d'une équipe qu'il a eu du mal à piloter.
+  href: https://www.youtube.com/watch?v=QGdUXehGJYM
+  episodes: [16]
+- name: |
+    Formation "assertivité pour cadre et manager" - Cegos
+  desc: Excellente formation suivie par Adrien il y a quelques années. Les techniques de l'assertivité permettent de faire face aux situations de tensions quotidiennes courantes et d'éviter d'en générer soi-même. Cette méthode permet de limiter l'agressivité, la passivité ou la manipulation dans les relations habituelles.
+  href: https://www.cegos.fr/formations/developpement-personnel/saffirmer-dans-ses-relations-professionnelles-assertivite-les-bases
+  episodes: [16]
+- name: Unlearning toxic behaviors in a code review culture | by Sandya Sankarram
+  href: https://medium.com/@sandya.sankarram/unlearning-toxic-behaviors-in-a-code-review-culture-b7c295452a3c
+  episodes: [16]
+- name: How to Make Your Code Reviewer Fall in Love with You · mtlynch.io
+  desc: Conseils sur comment bien communiquer lors de la revue de code (pull requests ou autres).
+  href: https://mtlynch.io/code-review-love/
+  episodes: [16]
+- name: Delegation Poker & Delegation Board - Management 3.0 Practice
+  desc: Use Delegation Poker to clarify who’s responsible for what and to what level. This is a method where you can encourage employee engagement through controlled self-organization and clarified value and decision-making.
+  href: https://management30.com/practice/delegation-poker/
+  episodes: [16]
+- name: ADRs / Architecture Decision Records
+  desc: Document / keep a history of decisions to better understand why decisions where made (e.g. shortcuts, workarounds, etc...), to increase durability of the codebase, ease transmission of ownership, and therefore slow down its transformation into "legacy code".
+  href: https://understandlegacycode.com/blog/7-techniques-to-regain-control-of-legacy/#4-adrs-
