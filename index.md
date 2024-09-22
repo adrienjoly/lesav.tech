@@ -11,7 +11,7 @@ Tous les épisodes sont centrés sur VOS questions et situations compliquées au
 
 Alors: à vos claviers !
 
-<a class="call-to-action" href="/question">Proposer une question, un sujet</a>
+<p style="text-align: center;"><a class="call-to-action" href="/question">Proposer une question, un sujet</a></p>
 
 ## Suivre le podcast
 
