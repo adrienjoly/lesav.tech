@@ -21,7 +21,7 @@ Retrouvez [les épisodes du podcast](https://podcasters.spotify.com/pod/show/sav
 
   <a class="platform-link" title="Apple Podcasts" href="https://podcasts.apple.com/us/podcast/le-sav-de-la-tech/id1708804759" target="_blank" rel="noopener noreferrer"><img src="/assets/apple-48px.png" alt="Apple Podcasts Logo" height="28" width="28"></a>
 
-  <a class="platform-link" title="Google Podcasts" href="https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy9lN2E2N2QxYy9wb2RjYXN0L3Jzcw" target="_blank" rel="noopener noreferrer"><img src="/assets/google-48px.png" alt="Google Podcasts Logo" height="28" width="28"></a>
+  <a class="platform-link" title="Youtube Music" href="https://music.youtube.com/playlist?list=PLmzn1C-VN6G6zveKmZNMAMze6fwJZGxg-&si=-AdvnycPRl9dplts" target="_blank" rel="noopener noreferrer"><img src="/assets/youtube-music-48px.png" alt="Youtube Music Logo" height="28" width="28"></a>
 
   <a class="platform-link" title="Spotify" href="https://open.spotify.com/show/3IimihWSmYskxUGOovm7kW" target="_blank" rel="noopener noreferrer"><img src="/assets/spotify-48px.png" alt="Spotify Logo" height="28" width="28"></a>
 
