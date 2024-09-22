@@ -28,3 +28,29 @@ a {
 h2 {
     clear: both
 }
+
+.call-to-action {
+    display: inline-block;
+    align-items: center;
+    background-color: rgb(31, 136, 61);
+    border: rgba(31, 35, 40, 0.15) solid 1px;
+    border-radius: 6px;
+    box-shadow: rgba(31, 35, 40, 0.04) 0px 1px 0px 0px;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 32px;
+    min-width: max-content;
+    overflow-wrap: break-word;
+    padding-bottom: 0px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 0px;
+    text-align: center;
+    user-select: none;
+}
+
+a.call-to-action {
+    text-decoration: none;
+}

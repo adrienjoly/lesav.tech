@@ -7,13 +7,11 @@ En s'appuyant sur leur expérience et une bonne couche d'autodérision, [Jérém
 
 Au programme: conflits entre collègues, soft skills pour les désamorcer, négociations salariales, développement de carrière...
 
-Nous répondons à VOS questions, alors: à vos claviers !
+Tous les épisodes sont centrés sur VOS questions et situations compliquées au bureau.
 
-## Soumettre un sujet
+Alors: à vos claviers !
 
-Vous avez un problème ou question à proposer pour un prochain épisode ?
-
-🗳️ [Partagez votre sujet avec nous !](/question)
+<a class="call-to-action" href="/question">Proposer une question, un sujet</a>
 
 ## Suivre le podcast
 

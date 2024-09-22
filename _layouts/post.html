@@ -32,7 +32,7 @@
   
       {{ content }}
 
-      <p><a href="/question"><button>Proposer sujet pour un prochain épisode</button></a></p>
+      <p><a class="call-to-action" href="/question">Proposer une question, un sujet</a></p>
 
       {% assign filtered_resources = site.data.resources | where: 'episodes', episode_number %}
 
