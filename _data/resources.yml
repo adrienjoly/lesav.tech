@@ -123,3 +123,6 @@
 - name: ADRs / Architecture Decision Records
   desc: Document / keep a history of decisions to better understand why decisions where made (e.g. shortcuts, workarounds, etc...), to increase durability of the codebase, ease transmission of ownership, and therefore slow down its transformation into "legacy code".
   href: https://understandlegacycode.com/blog/7-techniques-to-regain-control-of-legacy/#4-adrs-
+- name: Méthode des "Cinq pourquoi"
+  desc: Méthode permettant de trouver les raisons profondes ("root cause", en anglais) d'une décision ou d'un comportement.
+  href: https://fr.wikipedia.org/wiki/Cinq_pourquoi
