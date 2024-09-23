@@ -126,3 +126,7 @@
 - name: Méthode des "Cinq pourquoi"
   desc: Méthode permettant de trouver les raisons profondes ("root cause", en anglais) d'une décision ou d'un comportement.
   href: https://fr.wikipedia.org/wiki/Cinq_pourquoi
+- name: Méthode de clarification d'objectif, pour passer a l'action
+  desc: |
+    L'objectif vous semblait pourtant clair quand votre manager vous en parlé... Mais depuis, vous ne savez plus vraiment pourquoi vous devez le faire, de multiples dépendances sont apparues... Et si on revoyait notre manière de fixer un objectif ?
+  href: https://app.will-agent.com/card/clarification
