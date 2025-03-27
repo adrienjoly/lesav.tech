@@ -99,7 +99,7 @@
 - name: |
     Geoff Mazeroff's notes from "The Manager’s Path: A Guide for Tech Leaders Navigating Growth & Change", by Camille Fournier
   href: https://geoffmazeroff.com/wp-content/uploads/2019/11/the-managers-path-notes.pdf
-  episodes: [10]
+  episodes: [10, 33]
 - name: Comment m̶a̶l̶ communiquer avec ses collègues
   desc: Talk court qu'Adrien a donné en Mars 2024 sur les erreurs de communication et leadership qu'il a commises lors d'une expérience au sein d'une équipe qu'il a eu du mal à piloter.
   href: https://www.youtube.com/watch?v=QGdUXehGJYM
@@ -131,3 +131,7 @@
   desc: |
     L'objectif vous semblait pourtant clair quand votre manager vous en parlé... Mais depuis, vous ne savez plus vraiment pourquoi vous devez le faire, de multiples dépendances sont apparues... Et si on revoyait notre manière de fixer un objectif ?
   href: https://app.will-agent.com/card/clarification
+- name: |
+    "Staff Engineer: Leadership beyond the management track", by Will Larson
+  href: https://staffeng.com/book
+  episodes: [33]
