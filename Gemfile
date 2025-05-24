@@ -7,3 +7,4 @@ gem "jekyll-import", "~> 0.24", group: :jekyll_plugins
 gem "rss", "~> 0.3.0", group: :jekyll_plugins
 gem "safe_yaml", "~>1.0.5", group: :jekyll_plugins
 gem "webrick", "~> 1.3"
+gem "csv"
